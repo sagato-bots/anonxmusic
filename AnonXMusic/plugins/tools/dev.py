@@ -127,7 +127,7 @@ async def forceclose_command(_, CallbackQuery):
     if CallbackQuery.from_user.id != int(user_id):
         try:
             return await CallbackQuery.answer(
-                "» Aukat me reh laude 🙂😂 !!.", show_alert=True
+                "» Aukat me reh laude 🤡😂 !!.", show_alert=True
             )
         except:
             return
